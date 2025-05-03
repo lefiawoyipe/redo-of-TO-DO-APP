@@ -8,8 +8,17 @@ Only one task can be edited at a time.
 
 Timestamp is updated when a task is edited.
 
-![alt text](image.png)
+ DARK THEME:
+ ![alt text](image.png)
+
+ LIGHT THEME:
 ![alt text](image-1.png)
+
+FOCUS THEME:
 ![alt text](image-2.png)
+
+ENERGETIC THEME:
 ![alt text](image-3.png)
+
+NATURE THEME:
 ![alt text](image-4.png)
