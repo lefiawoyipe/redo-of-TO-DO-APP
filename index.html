@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remake of the to-do app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app"><h2>To-Do List <img src= "images/icon.png" alt="icon"></h2>
+    <div class="row">
+    <input type="text" id="input-box" placeholder="Add task..." aria-label="Task input" />
+    <button onclick="addTask()">Add</button>
+    <button onclick="clearAll()">Clear All</button>
+    <button onclick="clearCompleted()">Clear Completed</button>
+    </div>
+    <div class="theme-buttons">
+        <button onclick="setTheme('light')">🌤 Light</button>
+        <button onclick="setTheme('dark')">🌙 Dark</button>
+        <button onclick="setTheme('focus')">🎯 Focus</button>
+        <button onclick="setTheme('energetic')">⚡ Energetic</button>
+        <button onclick="setTheme('nature')">🌿 Nature</button>
+      </div>
+
+    <ul id="list-container" role="list" aria-label="Task list"></ul>
+       
+</div>
+        
+</div>
+    <script src="todoscript.js"></script>
+</body>
+</html>
